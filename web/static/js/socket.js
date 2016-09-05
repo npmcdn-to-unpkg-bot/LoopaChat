@@ -68,7 +68,7 @@ chatInput.on("keypress", event => {
 })
 
 channel.on("new_msg", payload => {
-  messagesContainer.append(`<strong>${payload.name || "Anonymous"}:</strong> ${md.render(payload.body)}`)
+  messagesContainer.append(`<strong>${payload.name || "Anónimo"}:</strong> ${md.render(payload.body)}`)
 })
 
 channel.join()

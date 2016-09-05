@@ -1,0 +1,18 @@
+#top {
+  background: url("/images/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  padding: 2em;
+  height: 280px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.messages-container {
+  margin: 2em 0;
+}
+
+.top-icons {
+  color: white;
+  font-size: 1.4em !important;
+  padding: 0 0.4em;
+}

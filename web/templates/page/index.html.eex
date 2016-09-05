@@ -1,0 +1,23 @@
+<div class="messages-container">
+  <div id="messages"></div>
+  
+  <div class="row">
+    
+    <div class="col-xs-4 col-md-2">
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1"><i class="fa fa-user"></i></span>
+        <input type="text" id="name" class="form-control" placeholder="Nombre" aria-describedby="basic-addon1">
+      </div>
+    </div>
+    
+    <div class="col-xs-8 col-md-10">
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1"><i class="fa fa-comment"></i></span>
+        <input type="text" id="chat-input" class="form-control" placeholder="Mensaje" aria-describedby="basic-addon1">
+      </div>
+    </div>
+  
+  </div>
+
+  
+</div>
